@@ -112,15 +112,20 @@ body{
     width:80px;
     object-fit: contain;
     position: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .nav__avatar{
     width:30px;
     object-fit: contain; 
-    position: fixed;  
+    position: absolute;    
+    right: 5px; 
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
 }
 
 .nav__black{
     background-color: #111;
 }
-
