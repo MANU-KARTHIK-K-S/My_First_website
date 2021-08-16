@@ -121,3 +121,7 @@ body{
 .nav__black{
     background-color: #111;
 }
+.nav{
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
